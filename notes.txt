@@ -1,0 +1,38 @@
+{
+  move front 1 8
+}
+
+$my_block: {
+}
+
+
+$my_block
+
+
+&string_var: whatever_comes_here is all text replaced
+
+@value_var: whatever comes here is assigned to left
+
+# is comment, from parse to end of line
+
+@a < @b < @c
+
+^ the above is evaluated as a < b and b < c
+
+&a<@b and @b<@d
+@a < @b or @b < @c < @d
+
+
+@a + @b
+
+1 = @b
+
+= checks equality
+
+$my_block[@param1, @param2, &param3, $param4]: {
+}
+
+() ?
+~ true { }
+~ false { }
+~ () {}

@@ -1,0 +1,13 @@
+.{
+    .name = .lmc,
+    .version = "0.0.0",
+    .fingerprint = 0xba64ce5e06b3a490,
+    .minimum_zig_version = "0.15.0-dev.375+8f8f37fb0",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+    },
+}
